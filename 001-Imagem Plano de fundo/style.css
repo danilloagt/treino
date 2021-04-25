@@ -1,0 +1,15 @@
+body{
+    /*background-image: url(pl.jpg);*/
+    
+}
+#p-menu{
+    color: white;
+    background-image: url(pl.jpg);
+    background-attachment: fixed;
+}
+#menu {
+    background: yellowgreen;
+}
+#container{
+    background: red;
+}

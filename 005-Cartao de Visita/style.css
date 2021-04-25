@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+    background-image: url("assets/fundo.jpg");
+}
+
+#container {
+    width: 450px;
+    height: 250px;    
+    padding: 20px;
+    box-shadow: 4px 4px 8px black;
+    margin: auto;
+    margin-top: 20px;
+    background-image: url("assets/fundo.jpg");
+}
+
+#side{
+    margin-top: 12px;
+}
+
+#n1 {
+    color:darkcyan;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+
