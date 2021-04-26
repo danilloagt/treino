@@ -1,0 +1,16 @@
+#n1{
+    background: red;
+    display: inline-block;
+    width: 400px;
+}
+
+#n2{
+    background: blue;
+    display: inline-block;
+    width: 400px;
+}
+#n3{
+    background: green;
+    display: inline-block;
+    width: 400px;
+}
