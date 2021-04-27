@@ -2,6 +2,7 @@
     width: 500px;
     height: 500px;
     border: 1px solid;
+    position: relative;
 }
 .quadrado {
     width: 100px;
@@ -13,10 +14,18 @@
 }
 .quadrado-blue {
     background: blue;
-    position: relative;
-    top: 300px;
-    left: 400px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 .quadrado-green {
     background: green;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.quadrado-gray {
+    background: gray;
+    position: absolute;
+    bottom: 0px;
 }
