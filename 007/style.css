@@ -1,31 +1,31 @@
-#container {
-    width: 500px;
-    height: 500px;
+.quadro{
+    width: 610px;
+    height: 600px;
     border: 1px solid;
+    margin: auto;
     position: relative;
 }
 .quadrado {
     width: 100px;
     height: 100px;
 }
-
-.quadrado-red {
+.quadrado-red{
     background: red;
+    width: auto;
+
 }
-.quadrado-blue {
-    background: blue;
+.quadrado-blue{
     position: absolute;
-    top: 0px;
-    right: 0px;
+    background: blue;
+    width: 600px;
+    left: 10px;
+    top: 10px;
+
 }
-.quadrado-green {
+.quadrado-green{
     background: green;
     position: absolute;
-    bottom: 0px;
-    right: 0px;
-}
-.quadrado-gray {
-    background: gray;
-    position: absolute;
-    bottom: 0px;
+    width: 580px;
+    top: 30px;
+    left: 30px;
 }
