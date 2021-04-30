@@ -1,0 +1,22 @@
+#cabecalho{
+    background-color: brown;
+    height: 100px;
+}
+
+#sider {
+    background-color: antiquewhite;
+    
+}
+#flooter{
+    background-color: brown;
+    height: 100px;
+    
+}
+#img1, #img2, #img3{
+    width: 200px;
+    border: 1px solid;
+    text-align: center;
+}
+img {
+    width: 150px;
+}

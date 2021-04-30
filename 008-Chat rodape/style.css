@@ -1,0 +1,22 @@
+#header{
+    background-color: burlywood;
+    height: 200px;
+}
+#main {
+    background-color: cadetblue;
+    height: 800px;
+}
+#papo {
+    background-color: aquamarine;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 10px;
+
+}
+label {
+    display: block;
+}
