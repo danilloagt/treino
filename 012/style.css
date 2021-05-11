@@ -1,26 +1,41 @@
 .container{
     display: flex;
     background-color: gray;
-    height: 680px;
-    flex-
+    height: 400px;    
+    flex-direction: column; /* transforma em linhas ou colunas */
+    justify-content: center; /* alinhamento horizontal*/
+    align-items: center;     /* alinhamento vertical */
+    align-content: space-between; /* espaçamento entre linhas */    
+    flex-wrap: wrap; /* quebra de colunas ou linhas */
+    flex-flow: ;
+
+    align-items: flex-end;
 
 }
 
 .r1 {
     background-color: red;
-
+    /* flex-grow: 4; */
+    order: 2;
+    align-self: flex-end;
+    flex-wrap: wrap;
 }
 .r2{
     background-color: blue;
-
+    /* flex-grow: 1; */
+    order: 1;
+    align-self: center;
 }
 .r3{
     background-color: green;
-
+    order: 3;
+    /* flex-grow: 1; */
+    /* flex-shrink: 0; */
+    align-self: flex-end;
 }
 
 .react{
-    width: 300px;
+    width: 200px;
     height: 100px;
     color: white;
     font-size: 26px;

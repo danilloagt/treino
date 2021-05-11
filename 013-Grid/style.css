@@ -1,0 +1,24 @@
+.container{
+    background-color: gray;
+    padding: 10px;
+    display: grid;
+    grid-template: auto auto / auto auto auto;
+    /* row-gap: 10px;
+    column-gap: 10px; */
+    height: 600px;
+    align-items:center;
+    justify-items: flex-start;
+}
+.react {
+    height: 100px;
+}
+
+.r1{
+    background-color: red;
+}
+.r2{
+    background-color: green;
+}
+.r3{
+    background-color: blue;;]
+}
