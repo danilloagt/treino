@@ -1,24 +1,47 @@
+html, body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0xp;
+}
 .container{
-    background-color: gray;
-    padding: 10px;
+    background-color: black;
+    height: 100Vh;
     display: grid;
-    grid-template: auto auto / auto auto auto;
-    /* row-gap: 10px;
-    column-gap: 10px; */
-    height: 600px;
-    align-items:center;
-    justify-items: flex-start;
-}
-.react {
-    height: 100px;
-}
+    gap: 5px;
+    /* grid-template: repeat(3, auto) / repeat(3, auto); */
+    grid-template-areas:"a" 
+                        "b" 
+                        "c";
 
-.r1{
+    justify-items:start;
+    align-items: end;
+    
+    /* justify-content:start;
+    align-content: end; */
+    
+
+}
+.container > div{
+    background-color: blueviolet;
+    font-size: 40px;
+    color: azure;
+}
+.container > :nth-child(1){
+    background-color: blue;
+    font-size: 40px;
+    color: azure;
+    grid-area: a;
+
+}
+.container > :nth-child(2){
     background-color: red;
+    font-size: 40px;
+    color: azure;
+    grid-area: b;
 }
-.r2{
+.container > :nth-child(3){
     background-color: green;
-}
-.r3{
-    background-color: blue;;]
+    font-size: 40px;
+    color: azure;
+    grid-area: c;
 }
