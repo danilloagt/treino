@@ -1,0 +1,75 @@
+html,
+body,
+p,
+li,
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+
+
+/* Cabeçalho */
+.header {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.2rem;
+    /* background: #32D8BF; */
+}
+nav ul {
+    display: flex;
+}
+nav a {
+    padding: 15px;
+}
+nav a:hover {
+    color: #32D8BF;
+}
+
+
+/* Painel */
+
+.painel1{
+    background-image: url("img/sapato3.jpg");
+    background-repeat: no-repeat;
+    /* background: #32D8BF; */
+    background-size: 100%;
+    color: white;
+    text-align: center;
+    padding: 100px;
+    font-size: 1.8rem;
+    height: 400px;
+}
+
+/* Painel 2 */
+.painel2{
+    text-align: center;
+    color: #696969;
+    /* background: red;  */
+    padding: 50px;
+    font-size: 1.6rem;
+}
+
+/* Painel 3 */
+
+.painel3{
+    display: flex;
+    justify-content: space-around;
+    background: red;
+    text-align: center;
+    /* width: 300px; */
+    
+}
+.painel3 div:nth-child(1){
+    background-image: url("img/modelo1.jpg");
+}

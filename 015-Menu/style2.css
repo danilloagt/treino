@@ -1,0 +1,111 @@
+body,
+html,
+p,
+ul,
+li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 10px;
+}
+
+.cabecalho > ul {
+    display: flex;
+}
+.cabecalho > ul a{
+    padding: 20px;
+    margin-left: 5px;
+    /* background: red; */
+}
+
+/* Galeria 1 */
+.galeria1{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+}
+.galeria1 > div:nth-child(n){
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+/* Galeria 2 */
+.galeria2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 800px;
+    margin: 0 auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.galeria2 > div:nth-child(n+4){
+    background: red;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;  
+    column-gap: 10px;
+}
+.galeria2 > div:nth-child(n+10){
+    background: blue;
+    display: block;
+    grid-column: 1;
+    grid-row: 2/5;
+}
+
+/* Galeria 3 */
+
+.galeria3{
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    column-gap: 10px;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+@media (max-width:600px){
+    .galeria3{
+        grid-template-columns: 1fr;
+    }
+    .media{
+        background: red;
+        display: flex;
+        overflow: scroll;
+
+    }
+    .media > div {        
+        flex: 1 0 200px;
+    }
+}
+
+/* Galeria 4 */
+.galeria4{
+    max-width: 800px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: ;
+}
